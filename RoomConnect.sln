@@ -1,0 +1,57 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "server", "server", "{DAD03CFC-D5FA-AC94-41C7-9ABAB326F09E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoomConnect.Api", "server\RoomConnect.Api\RoomConnect.Api.csproj", "{491D074B-5F60-0851-21D2-764E1DB9B2D2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoomConnect.Application", "server\RoomConnect.Application\RoomConnect.Application.csproj", "{2AFDE5DB-42F4-10A0-26F6-D92710981273}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoomConnect.Domain", "server\RoomConnect.Domain\RoomConnect.Domain.csproj", "{5DBD16A5-0407-8344-DF30-A80CE33BA1F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoomConnect.Infrastructure", "server\RoomConnect.Infrastructure\RoomConnect.Infrastructure.csproj", "{EF54EBC0-310F-15D6-3CA6-D7BBE4FE53C8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoomConnect.Tests", "server\RoomConnect.Tests\RoomConnect.Tests.csproj", "{BAA44164-FFCA-F242-2A71-2E6676D00F7D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{491D074B-5F60-0851-21D2-764E1DB9B2D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{491D074B-5F60-0851-21D2-764E1DB9B2D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{491D074B-5F60-0851-21D2-764E1DB9B2D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{491D074B-5F60-0851-21D2-764E1DB9B2D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2AFDE5DB-42F4-10A0-26F6-D92710981273}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AFDE5DB-42F4-10A0-26F6-D92710981273}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AFDE5DB-42F4-10A0-26F6-D92710981273}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AFDE5DB-42F4-10A0-26F6-D92710981273}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DBD16A5-0407-8344-DF30-A80CE33BA1F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DBD16A5-0407-8344-DF30-A80CE33BA1F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DBD16A5-0407-8344-DF30-A80CE33BA1F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DBD16A5-0407-8344-DF30-A80CE33BA1F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF54EBC0-310F-15D6-3CA6-D7BBE4FE53C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF54EBC0-310F-15D6-3CA6-D7BBE4FE53C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF54EBC0-310F-15D6-3CA6-D7BBE4FE53C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF54EBC0-310F-15D6-3CA6-D7BBE4FE53C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BAA44164-FFCA-F242-2A71-2E6676D00F7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAA44164-FFCA-F242-2A71-2E6676D00F7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAA44164-FFCA-F242-2A71-2E6676D00F7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAA44164-FFCA-F242-2A71-2E6676D00F7D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{491D074B-5F60-0851-21D2-764E1DB9B2D2} = {DAD03CFC-D5FA-AC94-41C7-9ABAB326F09E}
+		{2AFDE5DB-42F4-10A0-26F6-D92710981273} = {DAD03CFC-D5FA-AC94-41C7-9ABAB326F09E}
+		{5DBD16A5-0407-8344-DF30-A80CE33BA1F4} = {DAD03CFC-D5FA-AC94-41C7-9ABAB326F09E}
+		{EF54EBC0-310F-15D6-3CA6-D7BBE4FE53C8} = {DAD03CFC-D5FA-AC94-41C7-9ABAB326F09E}
+		{BAA44164-FFCA-F242-2A71-2E6676D00F7D} = {DAD03CFC-D5FA-AC94-41C7-9ABAB326F09E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {69661F3F-FC34-4F0E-8E8A-289B54F02607}
+	EndGlobalSection
+EndGlobal

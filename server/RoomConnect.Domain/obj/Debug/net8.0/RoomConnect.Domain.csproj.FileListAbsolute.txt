@@ -1,0 +1,11 @@
+C:\Users\97798\OneDrive\Desktop\RoomConnect\server\RoomConnect.Domain\bin\Debug\net8.0\RoomConnect.Domain.deps.json
+C:\Users\97798\OneDrive\Desktop\RoomConnect\server\RoomConnect.Domain\bin\Debug\net8.0\RoomConnect.Domain.dll
+C:\Users\97798\OneDrive\Desktop\RoomConnect\server\RoomConnect.Domain\bin\Debug\net8.0\RoomConnect.Domain.pdb
+C:\Users\97798\OneDrive\Desktop\RoomConnect\server\RoomConnect.Domain\obj\Debug\net8.0\RoomConnect.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\97798\OneDrive\Desktop\RoomConnect\server\RoomConnect.Domain\obj\Debug\net8.0\RoomConnect.Domain.AssemblyInfoInputs.cache
+C:\Users\97798\OneDrive\Desktop\RoomConnect\server\RoomConnect.Domain\obj\Debug\net8.0\RoomConnect.Domain.AssemblyInfo.cs
+C:\Users\97798\OneDrive\Desktop\RoomConnect\server\RoomConnect.Domain\obj\Debug\net8.0\RoomConnect.Domain.csproj.CoreCompileInputs.cache
+C:\Users\97798\OneDrive\Desktop\RoomConnect\server\RoomConnect.Domain\obj\Debug\net8.0\RoomConnect.Domain.dll
+C:\Users\97798\OneDrive\Desktop\RoomConnect\server\RoomConnect.Domain\obj\Debug\net8.0\refint\RoomConnect.Domain.dll
+C:\Users\97798\OneDrive\Desktop\RoomConnect\server\RoomConnect.Domain\obj\Debug\net8.0\RoomConnect.Domain.pdb
+C:\Users\97798\OneDrive\Desktop\RoomConnect\server\RoomConnect.Domain\obj\Debug\net8.0\ref\RoomConnect.Domain.dll

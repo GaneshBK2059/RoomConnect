@@ -1,0 +1,321 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\97798\\OneDrive\\Desktop\\RoomConnect\\server\\RoomConnect.Api\\RoomConnect.Api.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\97798\\OneDrive\\Desktop\\RoomConnect\\server\\RoomConnect.Api\\RoomConnect.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\97798\\OneDrive\\Desktop\\RoomConnect\\server\\RoomConnect.Api\\RoomConnect.Api.csproj",
+        "projectName": "RoomConnect.Api",
+        "projectPath": "C:\\Users\\97798\\OneDrive\\Desktop\\RoomConnect\\server\\RoomConnect.Api\\RoomConnect.Api.csproj",
+        "packagesPath": "C:\\Users\\97798\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\97798\\OneDrive\\Desktop\\RoomConnect\\server\\RoomConnect.Api\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\97798\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\97798\\OneDrive\\Desktop\\RoomConnect\\server\\RoomConnect.Application\\RoomConnect.Application.csproj": {
+                "projectPath": "C:\\Users\\97798\\OneDrive\\Desktop\\RoomConnect\\server\\RoomConnect.Application\\RoomConnect.Application.csproj"
+              },
+              "C:\\Users\\97798\\OneDrive\\Desktop\\RoomConnect\\server\\RoomConnect.Infrastructure\\RoomConnect.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\97798\\OneDrive\\Desktop\\RoomConnect\\server\\RoomConnect.Infrastructure\\RoomConnect.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[8.0.22, )"
+            },
+            "Microsoft.AspNetCore.SignalR": {
+              "target": "Package",
+              "version": "[1.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[10.0.0, )"
+            },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[7.3.1, )"
+            },
+            "Npgsql": {
+              "target": "Package",
+              "version": "[10.0.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.6.2, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[7.3.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.416/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\97798\\OneDrive\\Desktop\\RoomConnect\\server\\RoomConnect.Application\\RoomConnect.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\97798\\OneDrive\\Desktop\\RoomConnect\\server\\RoomConnect.Application\\RoomConnect.Application.csproj",
+        "projectName": "RoomConnect.Application",
+        "projectPath": "C:\\Users\\97798\\OneDrive\\Desktop\\RoomConnect\\server\\RoomConnect.Application\\RoomConnect.Application.csproj",
+        "packagesPath": "C:\\Users\\97798\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\97798\\OneDrive\\Desktop\\RoomConnect\\server\\RoomConnect.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\97798\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\97798\\OneDrive\\Desktop\\RoomConnect\\server\\RoomConnect.Domain\\RoomConnect.Domain.csproj": {
+                "projectPath": "C:\\Users\\97798\\OneDrive\\Desktop\\RoomConnect\\server\\RoomConnect.Domain\\RoomConnect.Domain.csproj"
+              },
+              "C:\\Users\\97798\\OneDrive\\Desktop\\RoomConnect\\server\\RoomConnect.Infrastructure\\RoomConnect.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\97798\\OneDrive\\Desktop\\RoomConnect\\server\\RoomConnect.Infrastructure\\RoomConnect.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.0.3, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[7.3.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.416/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\97798\\OneDrive\\Desktop\\RoomConnect\\server\\RoomConnect.Domain\\RoomConnect.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\97798\\OneDrive\\Desktop\\RoomConnect\\server\\RoomConnect.Domain\\RoomConnect.Domain.csproj",
+        "projectName": "RoomConnect.Domain",
+        "projectPath": "C:\\Users\\97798\\OneDrive\\Desktop\\RoomConnect\\server\\RoomConnect.Domain\\RoomConnect.Domain.csproj",
+        "packagesPath": "C:\\Users\\97798\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\97798\\OneDrive\\Desktop\\RoomConnect\\server\\RoomConnect.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\97798\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.416/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\97798\\OneDrive\\Desktop\\RoomConnect\\server\\RoomConnect.Infrastructure\\RoomConnect.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\97798\\OneDrive\\Desktop\\RoomConnect\\server\\RoomConnect.Infrastructure\\RoomConnect.Infrastructure.csproj",
+        "projectName": "RoomConnect.Infrastructure",
+        "projectPath": "C:\\Users\\97798\\OneDrive\\Desktop\\RoomConnect\\server\\RoomConnect.Infrastructure\\RoomConnect.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\97798\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\97798\\OneDrive\\Desktop\\RoomConnect\\server\\RoomConnect.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\97798\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\97798\\OneDrive\\Desktop\\RoomConnect\\server\\RoomConnect.Domain\\RoomConnect.Domain.csproj": {
+                "projectPath": "C:\\Users\\97798\\OneDrive\\Desktop\\RoomConnect\\server\\RoomConnect.Domain\\RoomConnect.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[10.0.0, )"
+            },
+            "Npgsql": {
+              "target": "Package",
+              "version": "[10.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.416/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
